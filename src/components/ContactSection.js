@@ -26,7 +26,7 @@ const ContactSection = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('http://nchpDev.github.io/portfolio/submit-form', {
+      const response = await fetch('/.netlify/functions/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -12,7 +12,7 @@ const port = process.env.PORT || 3001;
 app.use(cors());
 app.use(bodyParser.json());
 
-app.post('/portfolio/submit-form', async (req, res) => {
+app.post('/submit-form', async (req, res) => {
   try {
     const { name, lastname, email, phone, company, description } = req.body;
     console.log('Received data:', req.body);
