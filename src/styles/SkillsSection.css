@@ -1,0 +1,140 @@
+/* SkillsSection.css */
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.icon-explain {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-explan .circle-icon{
+    margin: 1rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-section {
+    display: grid;
+    grid-gap: 3.5rem;
+    margin: 1rem;
+}
+
+/* Show 5 cards per row initially */
+@media only screen and (min-width: 1351px) {
+    .skills-section {
+        grid-template-columns: repeat(5, minmax(12rem, 1fr));
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .skills-section {
+        grid-template-columns: repeat(4, minmax(12rem, 1fr));
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .skills-section {
+        grid-template-columns: repeat(3, minmax(12rem, 1fr));
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .skills-section {
+        grid-template-columns: repeat(2, minmax(12rem, 1fr));
+    }
+}
+
+@media only screen and (max-width: 551px) {
+    .slider-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .icon-explain {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+.skill-card {
+    height: 15rem;
+    width: 100%;
+    background-color: #f0f0f015;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.skill-card h3 {
+    text-shadow: 0.1rem 0.1rem 0.2rem rgb(255, 255, 255);
+}
+
+.skill-card:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 5);
+}
+
+.skill-card img {
+    max-width: 100%;
+    max-height: 50%;
+    object-fit: contain;
+}
+
+.circle-icons-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.circle-icons {
+    display: flex;
+}
+
+.circle-icon.green {
+    background-color: green;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+}
+
+.circle-icon.orange {
+    background-color: orange;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+}
+
+.circle-icon.red {
+    background-color: red;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+}
+
+.slider-btn {
+    font-size: 2rem;
+    margin: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

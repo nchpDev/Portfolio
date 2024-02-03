@@ -1,0 +1,44 @@
+/* Footer.css */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.creation {
+    padding: 0.5rem;
+}
+
+.social-icons {
+    margin-top: 1.5rem;
+}
+
+.social-icons a {
+    margin: 0.25rem;
+    font-size: 1.75rem;
+    text-decoration: none; 
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+#ig:hover {
+    color: #ed018e;
+}
+
+#tw:hover {
+    color: #007BFF;
+}
+
+#lk:hover {
+    color: #0a66c2;
+}
+
+#gh:hover {
+    color: #1F2328;
+}
+
+#wp:hover {
+    color: #00a683;
+}
+

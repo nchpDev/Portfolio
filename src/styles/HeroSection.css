@@ -1,0 +1,127 @@
+/* HeroSection.css */
+.hero-section {
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  /* border: 1px solid red; */
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  align-items: center;
+}
+
+.name h1 {
+  font-size: 7rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.role p {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.hero-button {
+  margin-top: 1.5rem;
+}
+
+.hero-btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: linear-gradient(45deg,
+      #07152F 0%,
+      #1E224F 30%,
+      #6b3491 50%,
+      #c33ecf 75%
+  );
+  color: white;
+  border: none;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.hero-btn:hover {
+  background: linear-gradient(45deg,
+      #c33ecf 0%,
+      #6b3491 30%,
+      #1E224F 50%,
+      #07152F 75%
+  );
+  color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-content {
+    gap: 5.65rem;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .hero-content {
+    gap: 4rem;
+  }
+  
+  .name h1 {
+    font-size: 4.5rem;
+  }
+
+  .role p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 566px) {
+  .hero-content {
+    gap: 2rem;
+  }
+  
+  .name h1 {
+    font-size: 3.5rem; 
+  }
+
+  .role p {
+    font-size: 1rem; 
+  }
+
+  .hero-btn {
+    font-size: 0.75rem;
+    padding: 0.6rem 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+    .hero-content {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .name h1 {
+      font-size: 3.1rem;
+    }
+  
+    .role p {
+      font-size: 1.1rem;
+    }
+  
+    .hero-btn {
+      font-size: 0.9rem;
+      padding: 0.8rem 1.5rem;
+    }
+}

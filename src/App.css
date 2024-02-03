@@ -1,0 +1,15 @@
+/* src/styles/App.css */
+
+/* Reset some default browser styles */
+html, body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styles to the body */
+body {
+  font-family: ubuntu, 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+

@@ -1,0 +1,60 @@
+/* ProjectsSection.css */
+.title-project-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin: 3rem 10rem;
+}
+
+.project-card-right,
+.project-card-left {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.5s ease, scale 0.3s ease;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    width: auto;
+    opacity: 0;
+}
+
+.project-card-right {
+    transform-origin: right center;
+}
+
+.project-card-left {
+    transform-origin: left center;
+}
+
+.project-card-right.visible,
+.project-card-left.visible {
+    opacity: 1;
+}
+
+.project-card-right img,
+.project-card-left img {
+    justify-content: center;
+    max-width: 100%;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+        margin: 3rem 2rem;
+    }
+
+    .project-wrap {
+        flex: auto;
+    }
+}

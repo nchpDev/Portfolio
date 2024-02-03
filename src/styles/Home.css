@@ -1,0 +1,33 @@
+/* Home.css */
+
+.home-section {
+    background: linear-gradient(45deg, 
+    #c33ecf 0%, 
+    #6b3491 20%, 
+    #1E224F 40%, 
+    #07152F 100%
+    );
+    background-size: cover;
+    color: white; 
+    margin: 0;
+    padding: 0;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+  
