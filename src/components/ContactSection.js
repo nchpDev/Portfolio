@@ -26,7 +26,7 @@ const ContactSection = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('https://portfolio-mu-murex-79.vercel.app/submit-form', {
+      const response = await fetch('https://portfolio-mu-murex-79.vercel.app/api/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
