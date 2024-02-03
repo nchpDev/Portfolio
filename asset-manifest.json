@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b4ed163d.css",
+    "main.js": "/portfolio/static/js/main.154b6486.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/soql.png": "/portfolio/static/media/soql.ed237baf491e15838e68.png",
+    "static/media/nchp_logo.png": "/portfolio/static/media/nchp_logo.ab351af318d1e96beaad.png",
+    "static/media/sql.svg": "/portfolio/static/media/sql.18f84630d77ee59a93814e1aa3bc9770.svg",
+    "static/media/tbi_coaching.png": "/portfolio/static/media/tbi_coaching.527ea45f290b38634059.png",
+    "static/media/inforge_logo.png": "/portfolio/static/media/inforge_logo.570fdd31945159aff589.png",
+    "static/media/apex.webp": "/portfolio/static/media/apex.f6a1a5fcf729ebd6efee.webp",
+    "static/media/mongodb.svg": "/portfolio/static/media/mongodb.d89a6eebb2b81e487ffc99f69a3f6ea4.svg",
+    "static/media/salesforce.svg": "/portfolio/static/media/salesforce.445c0629ad560febf4d5e498d27d558c.svg",
+    "static/media/ruby.svg": "/portfolio/static/media/ruby.320ed4681bc48df897b0ed0ff4b00559.svg",
+    "static/media/nodejs.svg": "/portfolio/static/media/nodejs.615ffbea9529ca7047ed8a912bfd94b2.svg",
+    "static/media/c_sharp.svg": "/portfolio/static/media/c_sharp.a7ec03d256f307422701fb3e4c812f76.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/git_bash.svg": "/portfolio/static/media/git_bash.b3f73afb1361d47dd238f8e5e884ff06.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "main.b4ed163d.css.map": "/portfolio/static/css/main.b4ed163d.css.map",
+    "main.154b6486.js.map": "/portfolio/static/js/main.154b6486.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4ed163d.css",
+    "static/js/main.154b6486.js"
+  ]
+}
