@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className={`navbar ${visible ? 'visible' : 'hidden'}`}>
       <div className="navbar-container">
       <div className="logo-container">
-          <a href="/" onClick={toggleMenu}>
+          <a href="https://nchpdev.github.io/portfolio/" onClick={toggleMenu}>
             <img id='nchp-logo' src={nchp_logo} alt="Logo" />
           </a>
         </div>
