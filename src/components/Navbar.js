@@ -27,7 +27,6 @@ const Navbar = () => {
   }, [prevScrollPos]);
 
   const toggleMenu = () => {
-
     if (window.innerWidth > 600) {
       setVisible(!visible);
     } else {
@@ -40,8 +39,8 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${visible ? 'visible' : 'hidden'}`}>
       <div className="navbar-container">
-      <div className="logo-container">
-          <a href="https://nchpdev.github.io/portfolio/" onClick={toggleMenu}>
+        <div className="logo-container">
+          <a href="/" onClick={toggleMenu}>
             <img id='nchp-logo' src={nchp_logo} alt="Logo" />
           </a>
         </div>
