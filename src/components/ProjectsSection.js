@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import '../styles/ProjectsSection.css';
 
 import project1_icon from '../assets/inforge_logo.png';
-import project2_icon from '../assets/tbi_coaching.png';
-import project3_icon from '../assets/react.png';
+// import project2_icon from '../assets/tbi_coaching.png';
+// import project3_icon from '../assets/react.png';
 
 const ProjectsSection = () => {
   const containerRef = useRef(null);
@@ -47,13 +47,13 @@ const ProjectsSection = () => {
 
         <div className="project-wrap">
           <div className={`project-card-right ${isVisible ? 'visible' : ''}`}>
-            <img src={project2_icon} alt="Project 2 Logo" />
+            <img src={project1_icon} alt="Project 1 Logo" />
           </div>
         </div>
 
         <div className="project-wrap">
           <div className={`project-card-left ${isVisible ? 'visible' : ''}`}>
-            <img src={project3_icon} alt="Project 3 Logo" />
+            <img src={project1_icon} alt="Project 1 Logo" />
           </div>
         </div>
 
