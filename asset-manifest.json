@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b4ed163d.css",
-    "main.js": "/portfolio/static/js/main.9d70c4ba.js",
+    "main.js": "/portfolio/static/js/main.1fc1c095.js",
     "static/media/soql.png": "/portfolio/static/media/soql.ed237baf491e15838e68.png",
     "static/media/nchp_logo.png": "/portfolio/static/media/nchp_logo.ab351af318d1e96beaad.png",
     "static/media/sql.svg": "/portfolio/static/media/sql.18f84630d77ee59a93814e1aa3bc9770.svg",
@@ -18,10 +18,10 @@
     "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "main.b4ed163d.css.map": "/portfolio/static/css/main.b4ed163d.css.map",
-    "main.9d70c4ba.js.map": "/portfolio/static/js/main.9d70c4ba.js.map"
+    "main.1fc1c095.js.map": "/portfolio/static/js/main.1fc1c095.js.map"
   },
   "entrypoints": [
     "static/css/main.b4ed163d.css",
-    "static/js/main.9d70c4ba.js"
+    "static/js/main.1fc1c095.js"
   ]
 }
