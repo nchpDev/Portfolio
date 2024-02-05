@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b4ed163d.css",
-    "main.js": "/portfolio/static/js/main.6a971099.js",
+    "main.js": "/portfolio/static/js/main.9d70c4ba.js",
     "static/media/soql.png": "/portfolio/static/media/soql.ed237baf491e15838e68.png",
     "static/media/nchp_logo.png": "/portfolio/static/media/nchp_logo.ab351af318d1e96beaad.png",
     "static/media/sql.svg": "/portfolio/static/media/sql.18f84630d77ee59a93814e1aa3bc9770.svg",
-    "static/media/tbi_coaching.png": "/portfolio/static/media/tbi_coaching.527ea45f290b38634059.png",
     "static/media/inforge_logo.png": "/portfolio/static/media/inforge_logo.570fdd31945159aff589.png",
     "static/media/apex.webp": "/portfolio/static/media/apex.f6a1a5fcf729ebd6efee.webp",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.d89a6eebb2b81e487ffc99f69a3f6ea4.svg",
@@ -19,10 +18,10 @@
     "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "main.b4ed163d.css.map": "/portfolio/static/css/main.b4ed163d.css.map",
-    "main.6a971099.js.map": "/portfolio/static/js/main.6a971099.js.map"
+    "main.9d70c4ba.js.map": "/portfolio/static/js/main.9d70c4ba.js.map"
   },
   "entrypoints": [
     "static/css/main.b4ed163d.css",
-    "static/js/main.6a971099.js"
+    "static/js/main.9d70c4ba.js"
   ]
 }
